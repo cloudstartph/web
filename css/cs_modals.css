@@ -1,0 +1,107 @@
+.modal-container{
+	top: 0;
+	left: 0;
+	position: fixed;	
+	z-index: -1;
+	opacity: 0;
+	width: 100vw;
+	height: 100vh;	
+	transition: 0.2s;
+}
+
+.modal-background{
+	position: fixed;
+	width: 100vw;
+	height: 100vh;	
+	background: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+
+.modal-content{	
+	font-family: segoe ui;
+	width: 500px;
+	min-height: 250px;	
+	margin: auto;
+	margin-top: 200px;
+	padding: 10px;
+	background: white;	
+	transform: scale(0.5);
+	transition: transform 0.2s ease-in-out;
+	position: relative;
+	z-index: 2;
+	border: 1px solid lightgray;
+}
+
+.modal-content div.message{
+	width: 100%;
+	margin-left: 100px;
+	font-size: 14pt;
+}
+
+.modal-header{
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 20px;
+	position: relative;
+}
+
+.modal-header img{	
+	width: 60px;
+	height: 60px;	
+	display: none;
+}
+
+.modal-header span.title{
+	top: 0;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-size: 16px;
+	position: absolute;
+}
+
+.modal-header span.message{
+	font-size: 14px;
+	margin-left: 20px;
+}
+
+.modal-header .close-modal{
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: 0.1s;	
+	font-size: 25pt;	
+	margin-top: -10px;
+	cursor: pointer;
+}
+
+.modal-header .close-modal:hover{	
+	color: darkgray;
+}
+
+.modal-footer{
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	position: absolute;
+	background: whitesmoke;
+}
+
+.modal-footer button{
+	font-size: 14px;	
+	float: right;
+	width: 120px;
+	margin-left: 5px;
+	padding: 7px;
+	display: inline-block;
+	border: none;
+	position: relative;
+}
+
+#okay_modal{
+	color: white;
+}
+
+

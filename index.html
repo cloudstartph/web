@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CloudStart IT Solutions</title>
+	<link rel="stylesheet" type="text/css" href="css/cs_modals.css">
+	<link rel="stylesheet" type="text/css" href="css/cs_colors.css">
+	<link rel="stylesheet" type="text/css" href="css/bg_colors.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<header>	
+		<div>
+			<img src="assets/logo/cs_logo_2.png" width="100px">
+		</div>	
+		<div style="margin-left: 110px">
+			<h1>CLOUDSTART</h1>
+			<span style="margin-top: -5px; margin-left: 115px; position: absolute;">IT Solutions</span>
+		</div>		
+	</header>
+	<center>
+		<nav>
+			<ul>
+				<li>ABOUT US</li>
+				<li>COMPANY</li>
+				<li>SERVICES</li>
+				<li>PORTFOLIO</li>
+				<li>CONTACT US</li>
+			</ul>
+		</nav>
+	</center>
+	<section class="content">
+		<center>
+			<h1>Standard Styles</h1>
+			<br><br><br>
+			<div>
+				<h3>Dialog Boxes</h3><br>
+				<button class="bg-info btn" id="info_btn">Info</button>
+				<button class="bg-info btn" id="question_btn">Question</button>
+				<button class="bg-warning btn" id="warning_btn">Warning</button>
+				<button class="bg-error btn" id="error_btn">Error</button>			
+			</div>			
+		</center>
+	</section>
+	<div class="modal-container">
+		<div class="modal-background"></div>		
+		<div class="modal-content">
+			<div class="modal-header">
+				<img src="assets/icons/dialog_box/dialog-info.png" class="info text-white">
+				<img src="assets/icons/dialog_box/dialog-question.png" class="question text-white">
+				<img src="assets/icons/dialog_box/dialog-warning.png" class="warning text-white">
+				<img src="assets/icons/dialog_box/dialog-error.png" class="error text-white">
+				<span class="title">Title</span>
+				<span class="message"></span>
+			</div>
+			<div class="message"></div>
+			<div class="modal-footer">
+				<button class="btn" id="okay_modal">OKAY</button>		
+				<button id="cancel_modal">CANCEL</button>				
+			</div>
+		</div>
+	</div>
+	<footer>
+		<h3>OUR SERVICES</h3>
+		<ul>
+			<li>SOFTWARE DEVELOPMENT</li>
+			<li>WEBSITE DEVELOPMENT</li>
+			<li>APP DEVELOPMENT</li>
+		</ul>
+	</footer>
+</body>
+<script src="jquery/jquery.js"></script>
+<script src="js/cs_modals.js"></script>
+</html>
